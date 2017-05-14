@@ -403,6 +403,13 @@ header .header-content .header-content-inner p {
   width: 50vw;
 }
 
+@media (max-width: 400px) {
+  .portfolio-img {
+    height: 50vh;
+    width: 100vw;
+  }
+}
+
 .portfolio-box {
   position: relative;
   display: block;
