@@ -261,7 +261,7 @@ header .header-content .header-content-inner p {
     position: absolute;
     content: "";
     width: 2px;
-    background-color: #f1f1f1;
+    background-color: #A4BAB7;
     left: 40px;
     margin-left: -1.5px; }
   .timeline > li {
@@ -296,10 +296,10 @@ header .header-content .header-content-inner p {
       height: 80px;
       position: absolute;
       z-index: 100;
-      background-color: #5DB7DE;
+      background-color: #F1E9DB;
       color: white;
       border-radius: 100%;
-      border: 7px solid #f1f1f1;
+      border: 5px solid #f1f1f1;
       text-align: center; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
@@ -385,6 +385,17 @@ header .header-content .header-content-inner p {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 
+#star {
+  margin-top: 15%;
+}
+
+#sable {
+  margin-top: 5%;
+}
+
+#future {
+  background-color: #5DB7DE;
+}
 
 /*PORTFOLIO*/
 .portfolio-img {
