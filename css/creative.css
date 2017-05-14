@@ -473,6 +473,9 @@ header .header-content .header-content-inner p {
   background-image: url('../img/header-bg.jpg');
 }
 
+#contactForm #message {
+  height: 21vh;
+}
 /*BUTTONS*/
 .btn-default {
   color: #222222;
