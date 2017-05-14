@@ -403,6 +403,10 @@ header .header-content .header-content-inner p {
   background-color: #5DB7DE;
 }
 
+.download-links {
+  padding-left: 3%;
+}
+
 /*PORTFOLIO*/
 .portfolio-img {
   height: 40vh;
