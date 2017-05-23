@@ -428,6 +428,7 @@ header .header-content .header-content-inner p {
 }
 #portfolio .portfolio-item img {
   height: 45vh;
+  width: 60vh;
   z-index: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
@@ -512,7 +513,11 @@ header .header-content .header-content-inner p {
   font-size: 3em;
 }
 .portfolio-modal .modal-content img {
+  height: 60vh;
   margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p, li {
+  color: #F0E7D8;
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
@@ -533,7 +538,7 @@ header .header-content .header-content-inner p {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #FFFFFF;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -544,7 +549,7 @@ header .header-content .header-content-inner p {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #FFFFFF;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -556,7 +561,9 @@ header .header-content .header-content-inner p {
   opacity: 0;
   display: none;
 }
-
+.modal-content .modal-body a {
+  color: #FFFFFF;
+}
 /*CONTACT*/
 #contact {
   background-image: url('../img/header-bg.jpg');
